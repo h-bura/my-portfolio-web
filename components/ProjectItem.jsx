@@ -6,8 +6,9 @@ const ProjectItem = ({
   title,
   backgroundImg,
   tech,
-  projectUrl,
+  codeUrl,
   technologies,
+  demoUrl,
 }) => {
   return (
     <div className="relative  flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] py-2">
@@ -25,12 +26,12 @@ const ProjectItem = ({
             <p className="py-1 sm:py-3 text-white text-center">{tech}</p>
 
             <div className="flex flex-col items-center lg:flex-row gap-2 sm:gap-4 ">
-              <a href={projectUrl} target="_blank" rel="noreferrer">
+              <a href={codeUrl} target="_blank" rel="noreferrer">
                 <button className="px-8 text-xs sm:text-base bg-white text-gray-700 py-2 hover:bg-gray-200 font-bold">
                   Code
                 </button>
               </a>
-              <a href={projectUrl} target="_blank" rel="noreferrer">
+              <a href={demoUrl} target="_blank" rel="noreferrer">
                 <button className="px-8 text-xs sm:text-base bg-white text-gray-700 py-2 hover:bg-gray-200 font-bold">
                   Demo
                 </button>

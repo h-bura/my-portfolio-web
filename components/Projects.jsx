@@ -25,28 +25,32 @@ const Projects = () => {
           <ProjectItem
             title="Weather App"
             backgroundImg={weatherImg}
-            projectUrl="https://github.com/h-bura/react-weather-app"
+            codeUrl="https://github.com/h-bura/react-weather-app"
+            demoUrl="https://react-weather-app-ten-ashen.vercel.app/"
             tech="React JS"
             technologies={weatherTechnologies}
           />
           <ProjectItem
             title="Chat App"
             backgroundImg={chatImg}
-            projectUrl="https://github.com/h-bura/react-chat-app"
+            codeUrl="https://github.com/h-bura/react-chat-app"
+            demoUrl="https://react-chat-app-five-iota.vercel.app/"
             tech="React JS"
             technologies={chatTechnologies}
           />
           <ProjectItem
             title="Movies App"
             backgroundImg={films}
-            projectUrl="https://github.com/h-bura/nextjs-movie-app"
+            codeUrl="https://github.com/h-bura/nextjs-movie-app"
+            demoUrl="https://nextjs-movie-app-five.vercel.app/"
             tech="Next JS"
             technologies={movieTechnologies}
           />
           <ProjectItem
             title="E-Commerce App"
             backgroundImg={ecommerceImg}
-            projectUrl="https://github.com/h-bura/react-e-commerce-app"
+            codeUrl="https://github.com/h-bura/react-e-commerce-app"
+            demoUrl="https://react-e-commerce-app-one.vercel.app/"
             tech="React JS"
             technologies={ecommerceTechnologies}
           />
